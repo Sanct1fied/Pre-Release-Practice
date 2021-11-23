@@ -1,2 +1,2 @@
-# Pre-Release-Practice
+# Pre-Releases
 Will be for practicing pre-release papers
