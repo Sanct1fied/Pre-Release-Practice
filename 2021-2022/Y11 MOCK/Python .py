@@ -86,7 +86,8 @@ def calc_charge():
     final_hour = 0
 
     if time_park + hour_park > 16:
-        final_hour = (time_park + hour_park) - 16
+        afterfour = (time_park + hour_park) - 16
+        final_hour = hour_park - afterfour
         Charge = 2 + (Charge * final_hour)
         if parking_number == 1:
             Charge = Charge*0.9
